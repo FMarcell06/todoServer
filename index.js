@@ -72,7 +72,6 @@ app.patch("/todos/:id", async (req,resp)=>{
         resp.json({msg:"Sikeres változtatás!"})
     } catch (error) {
         console.log(error);
-        
     }
 })
 
